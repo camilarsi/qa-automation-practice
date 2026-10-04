@@ -1,0 +1,8 @@
+# Ignore dependencies
+node_modules/
+cypress/videos/
+cypress/screenshots/
+cypress/downloads/
+
+# Ignore system files
+.DS_Store

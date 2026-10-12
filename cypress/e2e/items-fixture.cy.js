@@ -17,6 +17,7 @@ describe('Grupo de Pruebas', function () {
     it('Prueba 2', function () {
         cy.get('@userData').then((userData) => {
             cy.createAccount(userData);
+            cy.screenshot('account_creation');
         });
     });
 });

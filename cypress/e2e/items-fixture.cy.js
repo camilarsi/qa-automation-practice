@@ -1,3 +1,5 @@
+require('cypress-xpath');
+
 describe('Grupo de Pruebas', function () {
 
     beforeEach(function () {
@@ -19,5 +21,10 @@ describe('Grupo de Pruebas', function () {
             cy.createAccount(userData);
             cy.screenshot('account_creation');
         });
+    });
+
+    it('Click on icon using Xpath', function () {
+        cy.visit('https://practicesoftwaretesting.com/auth/login');
+        cy.xpath("//*[@class='chat-toggle-btn']").click();
     });
 });

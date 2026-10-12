@@ -1,5 +1,15 @@
 {
     "name": "standard_user",
+    "lastName": "Doe",
+    "dateOfBirth": "1990-01-01",
+    "country": "Argentina",
+    "postalCode": 12345,
+    "houseNumber": 123,
+    "street": "San Martin",
+    "phone": "1234567890",
+    "city": "Buenos Aires",
+    "state": "Buenos Aires",
     "password": "secret_sauce",
-    "body": "Fixtures are a great way to mock data for responses to routes"
+    "body": "Fixtures are a great way to mock data for responses to routes",
+    "email": "standard_user@email.com"
 }

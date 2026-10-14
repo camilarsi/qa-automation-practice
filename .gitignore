@@ -3,6 +3,8 @@ node_modules/
 cypress/videos/
 cypress/screenshots/
 cypress/downloads/
+target/
+.idea/
 
 # Ignore system files
 .DS_Store

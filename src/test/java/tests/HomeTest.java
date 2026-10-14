@@ -18,9 +18,9 @@ public class HomeTest {
     public void testHomePage(){
         driver.get("https://practicesoftwaretesting.com/");
         String title = driver.getTitle();
-        assert title.equals("Practice Software Testing - Toolshop");
+        assert title.equals("Practice Software Testing - Toolshop - v5.0");
     }
-
+    
     @AfterMethod
     public void tearDown(){
         if(driver != null){

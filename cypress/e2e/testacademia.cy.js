@@ -28,7 +28,7 @@ describe('Grupo de Pruebas', function () {
             cy.get('.inventory_item_name').eq(0).click();
         });
         it('Prueba 3', function () {
-            cy.visit('https://www.saucedemo.com/');
+            cy.visit('https://www.saucedemo.com');
             cy.get('[data-test="login-credentials"] > h4').should('be.visible').and('contain.text', 'Accepted usernames are:');
         });
 
